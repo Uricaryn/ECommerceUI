@@ -1,6 +1,13 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      {
+        "source": "/api",
+        "destination": "https://ecommerce-d8dqbhh8hvhwfxg9.westeurope-01.azurewebsites.net/api*"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
     ]
   }
   
