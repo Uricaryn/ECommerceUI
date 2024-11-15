@@ -48,7 +48,7 @@ The project follows a modular architecture for maintainability and scalability:
    cd <ECommerceUI>
    ```
    
-4. Install dependencies:
+3. Install dependencies:
 
  ```bash
 npm install
